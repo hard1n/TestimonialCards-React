@@ -1,6 +1,3 @@
-# Cards layout usin React + Vite
+# Cards using React + Vite
 
-In this small project I practice the creation a Vite project
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Creating a testimonials static layout I practiced the creation of React <Components /> and how to use props
