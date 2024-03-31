@@ -3,10 +3,11 @@
   box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 9%);
   color: rgb(50, 50, 50);
   display: flex;
+  flex-direction: column;
   margin: 10px 10px 50px;
-  height: 368px;
+  height: auto;
   /* max-width: 1170px; */
-  width: 90%;
+  width: 350px;
 }
 
 .testimonial img {
@@ -31,4 +32,15 @@
 
 .comment {
   margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .testimonial {
+    /* max-width: 1170px; */
+    flex-direction: row;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    height: 368px;
+    width: 90%;
+  }
 }
